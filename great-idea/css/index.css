@@ -183,29 +183,16 @@ a {
     padding: 25px;
 }
 
-.introthree {
-    display: inline-block;
-    width: 40%;
-}
-
 .head-img {
     width: 35%;
     height: auto;
     margin-left: 5%;
 }
 
-
-/* .introtwo {
-    margin-top: 7%;
-    margin-bottom: 7%;
-    text-align: center;
-    vertical-align: middle;
-} */
-
-button {
+.introthree button {
     width: 140px;
     height: 25px;
-    margin-left: 35%
+    margin-left: 30%
 }
 
 h1 {
@@ -214,40 +201,24 @@ h1 {
     text-align: center;
 }
 
-.secttwo {
-    margin-top: 5%;
-    display: inline-block;
-    width: 45%;
+.fixone {
+    width: 100%;
+    border-top: .5px solid black;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    display: flex;
+    justify-content: space-between;
 }
 
-.sectthree {
-    display: inline-block;
-    width: 45%;
-    padding-left: 2%;
-    margin-left: 2%;
-}
-
-.set {
-    margin-top: 5%;
-    margin-bottom: 5%;
-    display: inline-block;
-    width: 31%;
+.fixtwo {
+    border-bottom: .5px solid black;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    display: flex;
 }
 
 .middle-img {
     width: 100%;
-}
-
-.settwo {
-    margin-left: 3%;
-    display: inline-block;
-    width: 31%;
-}
-
-.setthree {
-    margin-left: 3%;
-    display: inline-block;
-    width: 31%;
 }
 
 .end {
@@ -264,12 +235,34 @@ h1 {
     text-align: center;
 }
 
-.fixone {
+
+/* services page */
+
+.services-header-img {
     width: 100%;
-    border-top: .5px solid black;
-    margin-bottom: 5%;
 }
 
-.fixtwo {
-    border-bottom: .5px solid black;
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box2 {
+    border: 1px solid black;
+    background: lightgray;
+    width: 400px;
+}
+
+h2 {
+    font-size: 25px;
 }
