@@ -168,22 +168,19 @@ html {
 }
 
 nav {
-    display: inline-block;
-    margin-left: 5%;
-    width: 95%;
-    text-align: center;
-}
-
-.logo {
-    margin-left: 5%;
+    display: flex;
+    justify-content: space-between;
 }
 
 a {
+    text-decoration: none;
     color: gray;
-    display: inline-block;
-    width: 10%;
-    height: 40px;
-    text-align: center;
+}
+
+.introtwo {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
 }
 
 .introthree {
@@ -192,21 +189,23 @@ a {
 }
 
 .head-img {
-    width: 30%;
+    width: 35%;
     height: auto;
+    margin-left: 5%;
 }
 
-.introtwo {
+
+/* .introtwo {
     margin-top: 7%;
     margin-bottom: 7%;
     text-align: center;
     vertical-align: middle;
-}
+} */
 
 button {
-    padding: 2%;
-    margin-right: 2%;
-    width: 50%;
+    width: 140px;
+    height: 25px;
+    margin-left: 35%
 }
 
 h1 {
